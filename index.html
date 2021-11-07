@@ -7,7 +7,6 @@
   </head>
 
   <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <h1 id="title">Survey Form</h1>
     <p id="description'"> Its a Servey to get in touch with you</p>
 
@@ -36,7 +35,7 @@
       
       <input type="text" id="comment" name="comment" placeholder="Enter your comment"><br><br> 
       <br><br><label for="dropdown">Select a dropdown:</label><br><br>
-      <select name="dropdown" class="form-control" id="country">
+      <select class="form-control" id="dropdown">
         <option value="0" label="Select a country ... " selected="selected">Select a country ... </option>
         <optgroup id="country-optgroup-Africa" label="Africa">
             <option value="DZ" label="Algeria">Algeria</option>
@@ -302,9 +301,12 @@
         </optgroup>
     </select>
 
-      //create a radio button with five random options
-      <br><br><label for="radio">Select a radio button:</label><br><br>
+  
 
+      <br><br><label for="radio">Select your Age Group:</label><br><br>
+      <input type="radio" name="radio" value="1">0-17<br>
+      <input type="radio" name="radio" value="2">18*60<br>
+      <input type="radio" name="radio" value="3">60+<br>
       
       <button type="submit">Submit</button><br>
     <!--
