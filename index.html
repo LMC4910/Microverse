@@ -13,7 +13,7 @@
   <body class>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <h1 id = "title">Survey Form</h1>
-    <p id="description'"> Its a Servey to get in touch with you</p>
+    <p id="description"> Its a Servey to get in touch with you</p>
     <div class="mb-3">
     <form id="survey-form" class="text-primary">
       <label id= "name-label" class="text-primary"for="name">Name:</label><br>
@@ -22,10 +22,10 @@
       
       <label id = 'email-label'class="text-primary"  for="email">Email:</label><br>
       
-      <input type="email" id="email" name="email" placeholder="Enter your email" ><br>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
       
       <label id = "number-label" class="text-primary" for="phone">Phone:</label><br>
-      <input type="number" id="number-label" name="number" placeholder="Enter Your Number"><br>
+      <input type="number" id="number" name="number" placeholder="Enter Your Number" min = 0 max = 10 required><br>
 
       <label for="location">Location:</label><br>
       
@@ -328,8 +328,10 @@
       <br><br><label for="email">If you have any other data to Provide:</label><br><br>
       <input type="text" name="email" id="email" placeholder="Enter Additional Data"><br><br>
 
-      
-      <button type="submit" class="btn btn-primary">Submit</button><br><br>
+      <textarea placeholder="text Area for the user">
+
+      </textarea>
+      <button id = "submit" type="submit" class="btn btn-primary">Submit</button><br><br>
       <button type="reset" class="btn btn-Seocondary">Reset</button>
       </form></body>div>
     <!--
