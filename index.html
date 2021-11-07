@@ -10,17 +10,17 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
 
-  <body class>
+  <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <h1 id = "title">Survey Form</h1>
     <p id="description'"> Its a Servey to get in touch with you</p>
     <div class="mb-3">
-    <form id="survey-form" class="text-primary">
+    <form id="survey-form" class="text-primary" action="action_page.php" method="post">
       <label id= "name-label" class="text-primary"for="name">Name:</label><br>
       
       <input type="text" id="name" name="name" placeholder=" Please Enter your name" required><br>
       
-      <label id = 'email-label'class="text-primary"  for="email">Email:</label><br>
+      <label id = 'email-label'class="form-control"  for="email">Email:</label><br>
       
       <input type="email" id="email" name="email" placeholder="Enter your email" ><br>
       
